@@ -1,0 +1,22 @@
+﻿<div class="panel panel-success">
+    <div class="panel-heading">
+         <h3> Products List </h3>
+    </div>
+    <div class="panel-body row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="list-group">
+                <a  ng-repeat="product in products" href="{{baseUrl}}/product/{{$index}}" class="list-group-item">
+                    <h4 class="list-group-item-heading">{{product.name}}</h4>
+                    <p class="list-group-item-text">......</p>
+                </a>
+            </div>
+            <a href="{{baseUrl}}/new/" class="btn btn-default btn-lg btn-block">
+                <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>&nbsp;
+                 New Product
+            </a>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+</div>

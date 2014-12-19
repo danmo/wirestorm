@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html  ng-app="app">
+<head>
+    <title>WireStorm Products Application</title>
+	<!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
+    <script type="text/javascript" src="lib/angular/angular-1.3.7.js"></script>
+	<script type="text/javascript" src="lib/angular/angular-route-1.3.7.js"></script>
+
+	<link rel="stylesheet" href="lib/bootstrap-3.3.1-dist/dist/css/bootstrap.css">
+    <script type="text/javascript" src="lib/ui-bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+    <script type="text/javascript" src="lib/angular-mocks/angular-mocks.js"></script>
+
+
+    <!-- INCLUDE APPLICATION SPECIFIC CSS AND JAVASCRIPT -->
+    <script type="text/javascript" src="app/common/common.module.js"></script>
+	<script type="text/javascript" src="app/common/common.const.js"></script>
+    <script type="text/javascript" src="app/common/services/products.service.js"></script>
+    <script type="text/javascript" src="app/common/services/comments.service.js"></script>
+
+    <script type="text/javascript" src="app/products_list/productsList.module.js"></script>
+	<script type="text/javascript" src="app/products_list/productsList.ctrl.js"></script>
+
+    <script type="text/javascript" src="app/product_details/productDetails.module.js"></script>
+    <script type="text/javascript" src="app/product_details/productDetails.ctrl.js"></script>
+    
+    <script type="text/javascript" src="app/new_product/newProduct.module.js"></script>
+    <script type="text/javascript" src="app/new_product/newProduct.ctrl.js"></script>
+
+    <script type="text/javascript" src="app/app.module.js"></script>
+    <script type="text/javascript" src="app/app.routes.js"></script>
+	<script type="text/javascript" src="app/app.mocks.js"></script>
+
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+    <body >
+		<div id="ui-view" ng-view></div><!-- /content -->
+    </body>
+</html>
