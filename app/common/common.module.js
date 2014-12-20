@@ -1,5 +1,5 @@
 ﻿/**
- *	app.module.js
+ *	common.module.js
  */
 
 'use strict';

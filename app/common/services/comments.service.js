@@ -1,5 +1,5 @@
 ﻿/**
- *	products.service.js
+ *	comments.service.js
  */
 
 'use strict';
